@@ -1,0 +1,11 @@
+# Auto-detect text files and normalize to LF
+* text=auto
+
+# Force CRLF for C# source
+*.cs text eol=crlf
+
+# Force LF for web assets
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.cshtml text eol=lf
